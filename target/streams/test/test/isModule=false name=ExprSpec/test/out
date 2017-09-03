@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0m[32mExprSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mapply[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return an appropriate Expr depending on the input[0m[0m
+[0m[[0minfo[0m] [0m[32mcreateBinOp[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return a BinOp Expr when given a postfix expression[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw AssertionError if postfix expression contains illegal operators[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw AssertionError if postfix expression is not well formed[0m[0m
+[0m[[0minfo[0m] [0m[32mevalExpr[0m[0m
+[0m[[0minfo[0m] [0m[32m- should calculate the value of expr if its not already been calculated (value=None). Return the calculated value and an updated map of Exprs with possibly calculated values[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw RuntimeException if spreadsheet has self referencing cell[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw RuntimeException if spreadsheet has cyclical due to Variable Expr[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw RuntimeException if spreadsheet has cyclical postfix expression[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be able to evaluate a more complex postfix expression[0m[0m
